@@ -1,0 +1,67 @@
+.GradientBG{
+    background-image: linear-gradient(45deg, #670d10 0%,#092756 100% );
+}
+
+#title{
+    font-family: 'Share Tech Mono', monospace;
+    color: white;
+    font-size:60px ;
+}
+
+.color_white
+{
+	color: white;
+}
+
+.f1{
+    font-family: 'Share Tech Mono', monospace;
+}
+
+#inputRoom_Name {
+        width:30%;
+        padding:10px;
+        border-radius:10px;
+        box-shadow
+      }
+
+      input[type="text"]{
+        font-family:'Share Tech Mono', monospace ;
+      }
+
+      .button {
+        transition-duration: 0.4s;
+        height: 30px;
+        width: 100px;
+        border-radius: 20px;
+        font-family: 'Share Tech Mono', monospace;
+      }
+      
+      .button:hover {
+        background-color: #4c56af; 
+        color: white;
+        height: 50px;
+        width: 100px;
+        border-radius: 20px;
+        font-family: 'Share Tech Mono', monospace;
+      }
+
+      #Logout{
+        font-family:'Share Tech Mono', monospace ;
+   background-color: red;
+   color: white;
+   border-radius: 20px;
+   font-size: larger;
+   padding-bottom: 10px;
+      }
+
+      #Logout:hover{
+        background-color: tomato;
+      }
+
+      #buttondiv{
+        text-align: right;
+        margin-right: 20px;
+      }
+
+    
+       

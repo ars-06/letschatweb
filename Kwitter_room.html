@@ -1,0 +1,32 @@
+<html>
+    <head><title>Chat Room</title>
+        <link rel='stylesheet' type="text/css" href="Kwitter_room.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+        <script src="Kwitter.js"></script>
+    </head>
+    <body class="GradientBG">
+       <div id="buttondiv"> <button id=Logout onclick="Logout()" >Logout <sub><img src="outline_logout_white_48dp.png" height="30" width="30"></sub></button></div>
+        <center>
+            <h1 class="header" id="title">	
+                LetsChat
+                <sup>
+                    <img src="outline_chat_white_48dp.png" height="50" width="50">
+                </sup>
+            </h1>
+            <h3 class="color_white" id="user_name"></h3>
+		<div class="form-group input_div_room_page">
+			<label  class="color_white f1"> #Add Room: </label>
+<input type="text" id="inputRoom_Name" class="form-control"  placeholder="#roomname">
+<br>
+<br>
+		</div>
+        <button class="button button1"onclick="addRoom()"> #Add Room</button>
+		<h3 class="color_white f1" >#TRENDINGROOMS</h3>
+	<div id="output"></div>
+	</center>
+</div>
+<script src="kwitter_room.js"></script>
+    </body>
+</html>
